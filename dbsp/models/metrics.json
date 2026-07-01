@@ -1,0 +1,24 @@
+{
+  "engine_a_xg": {
+    "best_params": {
+      "max_depth": 18,
+      "min_samples_leaf": 8,
+      "n_estimators": 150
+    },
+    "mse": 0.00063,
+    "rmse": 0.02518,
+    "r2": 0.963
+  },
+  "engine_b_retention": {
+    "best_params": {
+      "max_depth": 12,
+      "min_samples_leaf": 8,
+      "n_estimators": 150
+    },
+    "roc_auc": 0.7324,
+    "accuracy": 0.7189
+  },
+  "n_rows": 9000,
+  "n_features": 42,
+  "data_source": "synthetic"
+}
